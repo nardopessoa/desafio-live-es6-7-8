@@ -7,3 +7,5 @@ const user = {
   id: id,
   nome: nome,
 };
+
+const user = {id, nome};

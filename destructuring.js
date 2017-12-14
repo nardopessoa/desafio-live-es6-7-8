@@ -14,3 +14,5 @@ const nome = user.nome;
 const empresa = user.empresa;
 const rua = user.endereco.rua;
 const num = user.endereco.num;
+
+{nome, empresa, endereco: {rua, num}} = user;
